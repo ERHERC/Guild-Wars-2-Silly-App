@@ -73,10 +73,136 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\GemStore.Designer.vb">
+    <Compile Include="Forms\Messages\Adopted.Designer.vb">
+      <DependentUpon>Adopted.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Adopted.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\BainStahp.Designer.vb">
+      <DependentUpon>BainStahp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\BainStahp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Charr.Designer.vb">
+      <DependentUpon>Charr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Charr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Confuse.Designer.vb">
+      <DependentUpon>Confuse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Confuse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Dyes.Designer.vb">
+      <DependentUpon>Dyes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Dyes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\FalseLake.Designer.vb">
+      <DependentUpon>FalseLake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\FalseLake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\FinishHim.Designer.vb">
+      <DependentUpon>FinishHim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\FinishHim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\ForgotWarrior.Designer.vb">
+      <DependentUpon>ForgotWarrior.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\ForgotWarrior.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Frisbee.Designer.vb">
+      <DependentUpon>Frisbee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Frisbee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\GemStore.Designer.vb">
       <DependentUpon>GemStore.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\GemStore.vb">
+    <Compile Include="Forms\Messages\GemStore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\HighVista.Designer.vb">
+      <DependentUpon>HighVista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\HighVista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Hype.Designer.vb">
+      <DependentUpon>Hype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Hype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\JumpingPuzzle.Designer.vb">
+      <DependentUpon>JumpingPuzzle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\JumpingPuzzle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Karma.Designer.vb">
+      <DependentUpon>Karma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Karma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Leader.Designer.vb">
+      <DependentUpon>Leader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Leader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\LolSerious.Designer.vb">
+      <DependentUpon>LolSerious.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\LolSerious.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\RedditDown.Designer.vb">
+      <DependentUpon>RedditDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\RedditDown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Silver.Designer.vb">
+      <DependentUpon>Silver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Silver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\VistasEverywhere.Designer.vb">
+      <DependentUpon>VistasEverywhere.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\VistasEverywhere.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\Wow.Designer.vb">
+      <DependentUpon>Wow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\Wow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Messages\WVW.Designer.vb">
+      <DependentUpon>WVW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Messages\WVW.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -101,8 +227,71 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\GemStore.resx">
+    <EmbeddedResource Include="Forms\Messages\Adopted.resx">
+      <DependentUpon>Adopted.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\BainStahp.resx">
+      <DependentUpon>BainStahp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Charr.resx">
+      <DependentUpon>Charr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Confuse.resx">
+      <DependentUpon>Confuse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Dyes.resx">
+      <DependentUpon>Dyes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\FalseLake.resx">
+      <DependentUpon>FalseLake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\FinishHim.resx">
+      <DependentUpon>FinishHim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\ForgotWarrior.resx">
+      <DependentUpon>ForgotWarrior.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Frisbee.resx">
+      <DependentUpon>Frisbee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\GemStore.resx">
       <DependentUpon>GemStore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\HighVista.resx">
+      <DependentUpon>HighVista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Hype.resx">
+      <DependentUpon>Hype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\JumpingPuzzle.resx">
+      <DependentUpon>JumpingPuzzle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Karma.resx">
+      <DependentUpon>Karma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Leader.resx">
+      <DependentUpon>Leader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\LolSerious.resx">
+      <DependentUpon>LolSerious.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\RedditDown.resx">
+      <DependentUpon>RedditDown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Silver.resx">
+      <DependentUpon>Silver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\VistasEverywhere.resx">
+      <DependentUpon>VistasEverywhere.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\Wow.resx">
+      <DependentUpon>Wow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Messages\WVW.resx">
+      <DependentUpon>WVW.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class GemStore
+Partial Class Karma
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,21 +24,21 @@ Partial Class GemStore
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Ad_001
+        'Karma
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Guild_Wars_2.My.Resources.ResFile.Gembox
+        Me.BackgroundImage = Global.Guild_Wars_2.My.Resources.ResFile._3dae1aa202456a1371be0fd1affd6016
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(957, 537)
+        Me.ClientSize = New System.Drawing.Size(257, 528)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Ad_001"
+        Me.Name = "Karma"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Guild Ward 2"
+        Me.Text = "Guild Wars 2"
         Me.ResumeLayout(False)
 
     End Sub
