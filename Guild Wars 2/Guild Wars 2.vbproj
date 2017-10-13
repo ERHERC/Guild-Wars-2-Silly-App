@@ -11,8 +11,9 @@
     <AssemblyName>Guild Wars 2</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -72,11 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\GemStore.Designer.vb">
+      <DependentUpon>GemStore.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Forms\GemStore.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,13 +94,26 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ResFile.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResFile.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\GemStore.resx">
+      <DependentUpon>GemStore.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResFile.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResFile.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +127,84 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gembox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1ac6458af0f6a08b237a971fece4b6a9--my-girlfriend-to-my-boyfriend.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1fd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dae1aa202456a1371be0fd1affd6016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Z8jB.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05c307d86bb0148742d2a9dd500b87510643ec8d01032b625f7901a14a6cdaee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5cbe431b8f2a8425ded9bbaa7dc3d2e973f36c8f487dcae5a93573f76fb4e56e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74cfd79957008ede0682ba4b8e026dfe173b104aa732b4c62d5e0f5ccbdf08e6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5599c66a2269e932b44f1ba9fc33f6ed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b27dbc0c592761f524e854d93d200f21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c69.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cant-find-the-frisbee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charr Cat4450Pop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColinJohanson-2-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ff0Il8v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guild+wars+2_85a28e_4064852.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guild-wars-2_o_566858.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guild-wars-2-has-funny-bugs_o_4688161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW2_how_does_it_feel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gw2-jumping-puzzle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hype_Train.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oh-guild-wars-2_o_866988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TGAMN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-night-before-guild-wars-2_o_657766.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vista.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
