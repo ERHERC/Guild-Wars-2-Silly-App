@@ -22,19 +22,43 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.MainLbl = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'MainLbl
+        '
+        Me.MainLbl.BackColor = System.Drawing.Color.Transparent
+        Me.MainLbl.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MainLbl.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MainLbl.ForeColor = System.Drawing.Color.White
+        Me.MainLbl.Location = New System.Drawing.Point(0, 0)
+        Me.MainLbl.Name = "MainLbl"
+        Me.MainLbl.Size = New System.Drawing.Size(664, 399)
+        Me.MainLbl.TabIndex = 0
+        Me.MainLbl.Text = "M O" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "I  S   L  I  F  E"
+        Me.MainLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.BackgroundImage = Global.Guild_Wars_2.My.Resources.ResFile.mo
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(664, 399)
+        Me.Controls.Add(Me.MainLbl)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "MainForm"
-        Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ShowIcon = False
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Guild ward 2"
+        Me.Text = "Message"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents MainLbl As Label
 End Class
